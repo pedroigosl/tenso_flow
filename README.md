@@ -20,7 +20,10 @@ As long as your dataset is:
 - all fields numerical and 
 - has the right formats for input and output
 
-It must be able to complete simple classification and regression tasks, with any hidden layers and topology desired 
+It must be able to complete simple classification (binary and multilabel) and regression tasks, with any hidden layers and topology desired 
+
+<img src="https://github.com/user-attachments/assets/f83e3271-28cc-4f32-b74f-24f7a4441002" alt="Regression of f(x)=x^2 with noise" width="300" height="200"> <img src="https://github.com/user-attachments/assets/0ab915ae-ab1d-471a-81d6-cd5729e65e09" alt="Classification of XOR dataset" width="300" height="200">
+
 
 At this point in time (and probably forever), there are:
 
