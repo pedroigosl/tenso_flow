@@ -1,6 +1,6 @@
 # tenso_flow
 
-Practice MLP project trying to mimic tensorflow modularity
+Practice MLP library project coding Neural Networks from the ground-up while trying to mimic Tensorflow modularity
 
 ## +++ DISCLAIMER: +++
 
@@ -22,7 +22,7 @@ As long as your dataset is:
 
 It must be able to complete simple classification and regression tasks, with any hidden layers and topology desired 
 
-At this point in time (and probably forever), there is:
+At this point in time (and probably forever), there are:
 
 - Layer types: Input, Dense
 - Activation functions: Linear, Step, Sigmoid, Tanh
@@ -33,7 +33,7 @@ At this point in time (and probably forever), there is:
 
 ## Acknowledgements:
 
-Results are reproducible by repeating its seed. Seeds from sample code were cherrypicked to reduce training time, since it is not very efficient and i am impatient.
+Results are reproducible by repeating its seed. Seeds from sample code were cherrypicked to reduce training time, since it is not very efficient (fully coded in Python) and i am impatient.
 
 On sample file, both training and testing are done on full population, as i didn't implement train/test split inside the module and the focus is just to show it converging, not a real world application. That said, on the first 2 datasets, decision surfaces are observable in plots. 
 
